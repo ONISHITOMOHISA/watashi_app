@@ -22,6 +22,8 @@ gem 'carrierwave'
 gem 'pry-rails'
 gem 'rmagick', '2.16.0'
 
+gem 'rails_12factor', group: :production
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
