@@ -25,8 +25,8 @@
           <div class="post-user-name">
             <%= link_to(post.user.name, "/users/#{post.user.id}") %>
           </div>
-            <%= link_to(post.content, "/posts/#{post.id}") %>
-             <%= image_tag post.image.to_s %> 
+            <%= link_to(post.object, "/posts/#{post.id}") %>
+            <%= image_tag post.image.to_s %> 
          </div>
 
       </div>
