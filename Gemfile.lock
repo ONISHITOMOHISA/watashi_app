@@ -290,6 +290,7 @@ GEM
     optimist (3.0.0)
     ovirt-engine-sdk (4.3.0)
       json (>= 1, < 3)
+    pg (1.1.4)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -324,6 +325,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -420,11 +426,13 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mini_magick (~> 4.8)
+  pg
   pry-byebug
   pry-doc
   pry-rails
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rails_12factor
   rmagick (= 2.16.0)
   sass-rails (~> 5.0)
   selenium-webdriver
@@ -437,7 +445,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.5.5p157
 
 BUNDLED WITH
    2.0.1
