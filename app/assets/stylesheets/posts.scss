@@ -10,13 +10,13 @@
   background-color: white;
   overflow: hidden;
   box-shadow: 0 2px 6px #c1ced7;
-  width:950px;
+  width:100%;
+
 }
 
 .post-content{
-    margin-top:20px;
-    margin-right:20px;
-    padding-right:20px;
+    margin: 0 auto ;
+    width:950px;
 }
 
 .itioshi{
@@ -59,7 +59,7 @@
 
 .rank-top{
   
-  margin-right:100px;
+  margin: 0 auto;
 }
 
 .rank {
