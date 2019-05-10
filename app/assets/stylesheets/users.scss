@@ -32,7 +32,6 @@
 }
 
 .user-left {
-  float: left;
   width: 10%;
 }
 
@@ -53,18 +52,19 @@
 .container1{
   margin-left:80px;
   margin-right:200px;
+  display:flex;
 }
 
 .user {
   margin-top:50px;
   margin-bottom: 20px;
-  float:left;
+
   padding-right:100px;
 }
 
 .user-content{
-  float:left;
-  width:930px;
+
+  width:942px;
 }
 
 .user img {

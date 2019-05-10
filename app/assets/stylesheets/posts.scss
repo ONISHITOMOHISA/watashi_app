@@ -14,9 +14,9 @@
 }
 
 .post-content{
-    float:left;
     margin-top:20px;
-    margin-right:10px;
+    margin-right:20px;
+    padding-right:20px;
 }
 
 .itioshi{
@@ -54,10 +54,11 @@
 .container2{
   margin-left:80px;
   margin-top:10px;
+  display:flex;
 }
 
 .rank-top{
-  float:right;
+  
   margin-right:100px;
 }
 
@@ -108,19 +109,17 @@
   margin-bottom: 10px;
 }
 
-// .like-btnのcolorを「#8899a6」にしてください
+
 .like-btn{
   color:#8899a6;
 }
 
 
-// .like-btn-unlikeのcolorを「#ff2581」にしてください
 .like-btn-unlike{
   color:#ff2581;
 }
 
 
-// ここに指定されたCSSを貼り付けてください
 .posts-show-item .fa {
   font-size: 16px;
   margin-right: 3px;
