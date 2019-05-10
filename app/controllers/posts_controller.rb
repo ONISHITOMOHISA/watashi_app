@@ -5,7 +5,10 @@ class PostsController < ApplicationController
 
    
   def index
-  	@posts = Post.all.order(created_at: :desc)
+    @posts = Post.all.order(created_at: :desc)
+    @all_ranks = Post.find(Like.group(:post_id).order('count(post_id) desc').limit(3).pluck(:post_id))
+    @post = Post.find_by(id: params[:id])
+    # @likes_count = Like.where(post_id: @post.id).count
   end
 
   def show

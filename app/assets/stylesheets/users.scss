@@ -42,6 +42,7 @@
   text-align: left;
   display: table-cell;
   vertical-align: middle;
+
 }
 
 /* users/show ================================ */
@@ -55,9 +56,15 @@
 }
 
 .user {
+  margin-top:50px;
   margin-bottom: 20px;
   float:left;
   padding-right:100px;
+}
+
+.user-content{
+  float:left;
+  width:942px;
 }
 
 .user img {

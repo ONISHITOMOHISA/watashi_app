@@ -5,6 +5,19 @@
   overflow: hidden;
   box-shadow: 0 2px 6px #c1ced7;
 }
+.posts-index-item1 {
+  padding: 20px 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+  width:950px;
+}
+
+.post-content{
+    float:left;
+    margin-top:20px;
+    margin-right:10px;
+}
 
 .itioshi{
   font-weight:bold;
@@ -36,6 +49,26 @@
   width: 90%;
   padding-left: 25px;
   text-align: left;
+}
+
+.container2{
+  margin-left:80px;
+  margin-top:10px;
+}
+
+.rank-top{
+  float:right;
+  margin-right:100px;
+}
+
+.rank {
+  padding: 20px 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+  width:280px;
+  border-left:10px solid #FF5192;
+  margin-top:5px;
 }
 
 /* posts/show ================================ */
