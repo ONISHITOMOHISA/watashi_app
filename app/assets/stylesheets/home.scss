@@ -83,12 +83,12 @@ header {
   font-size: 22px;
 }
 
-.header-menus {
+.navbar-right {
   float: right;
   padding-right: 20px;
 }
 
-.header-menus li {
+.navbar-right li {
   float: left;
   line-height: 64px;
   font-size: 13px;
@@ -96,17 +96,17 @@ header {
   padding-left: 15px;
 }
 
-.header-menus a {
+.navbar-right a {
   float: left;
   font-size: 13px;
   color: white;
 }
 
-.header-menus .fa {
+.navbar-right .fa {
   padding-right: 5px;
 }
 
-.header-menus input[type="submit"] {
+.navbar-right input[type="submit"] {
   padding: 0 20px;
   float: left;
   line-height: 64px;

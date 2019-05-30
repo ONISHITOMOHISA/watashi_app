@@ -50,21 +50,21 @@
 }
 
 .container1{
-  margin-left:80px;
-  margin-right:200px;
+  width:100%;
+  margin-right:150px;
   display:flex;
 }
 
 .user {
+  width:200px;
   margin-top:50px;
   margin-bottom: 20px;
-
-  padding-right:100px;
+ 
 }
 
 .user-content{
+  width:70%;
 
-  width:942px;
 }
 
 .user img {

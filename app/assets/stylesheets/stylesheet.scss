@@ -1,0 +1,42 @@
+
+/* users/show ================================ */
+
+@media screen and (max-width: 900px){
+	.container1{
+	width:500px;
+	margin:0;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+
+	}
+
+	.user-content{
+
+	  width:90%;
+	  margin:0 auto;
+	  padding-right:0;
+	}
+
+	.user{
+	width:100%;
+	margin:0 auto;
+	}
+}
+
+/* posts/index ================================ */
+
+@media screen and (max-width: 900px){
+	.container2{
+	display:flex;
+	flex-direction:column;
+	}
+
+	.rank-top{
+	margin-top:30px;
+	width:100%;
+	}
+	
+}
+
+

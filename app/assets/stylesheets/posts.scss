@@ -14,11 +14,6 @@
 
 }
 
-.post-content{
-    margin: 0 auto ;
-    width:950px;
-}
-
 .itioshi{
   font-weight:bold;
 }
@@ -52,14 +47,20 @@
 }
 
 .container2{
-  margin-left:80px;
+  width:100%;
+  margin-left:5%;
+  margin-right:5%;
   margin-top:10px;
   display:flex;
 }
 
-.rank-top{
+.post-content{
   
-  margin: 0 auto;
+    width:950px;
+}
+
+.rank-top{
+
 }
 
 .rank {

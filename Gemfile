@@ -21,6 +21,8 @@ gem 'bcrypt'
 gem 'carrierwave'
 gem 'pry-rails'
 gem 'rmagick', '2.16.0'
+gem 'bootstrap-sass', '3.3.6'
+gem 'jquery-rails', '4.3.1'
 
 gem 'rails_12factor', group: :production
 
