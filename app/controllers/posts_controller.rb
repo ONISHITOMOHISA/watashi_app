@@ -22,37 +22,37 @@ class PostsController < ApplicationController
   end
 
   def create
-  	@post = Post.new(post_params)
+    @post = Post.new(post_params)
     @post.user = @current_user
-  	if @post.save
+    if @post.save
       flash[:notice]="投稿を作成しました"
-  	  redirect_to("/posts/index")
+      redirect_to("/posts/index")
     else
       render("posts/new")  
-  end	
+  end 
   end
 
   def edit
-  	@post = Post.find_by(id:params[:id])
+    @post = Post.find_by(id:params[:id])
   end
 
   def update
-  	@post = Post.find_by(id: params[:id])
-  	@post.content = params[:content]
+    @post = Post.find_by(post_params)
+    @post.content = params[:content]
     @post.object = params[:object]
-  	if @post.save
+    if @post.save
     flash[:notice]="投稿を編集しました"
-  	redirect_to("/posts/index")
+    redirect_to("/posts/index")
     else
     render("posts/edit")
    end
   end
 
   def destroy
-  	@post = Post.find_by(id:params[:id])
-  	@post.destroy
+    @post = Post.find_by(id:params[:id])
+    @post.destroy
     flash[:notice]="投稿を削除しました"
-  	redirect_to("/posts/index")
+    redirect_to("/posts/index")
   end
 
   def ensure_correct_user
