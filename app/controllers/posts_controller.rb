@@ -37,14 +37,13 @@ class PostsController < ApplicationController
   end
 
   def update
-    @post = Post.find_by(post_params)
-    @post.content = params[:content]
-    @post.object = params[:object]
-    if @post.save
-    flash[:notice]="投稿を編集しました"
-    redirect_to("/posts/index")
+    @post = Post.find_by(id:params[:id])
+    if @post.update(post_params)
+       @post.save
+       flash[:notice]="投稿を編集しました"
+       redirect_to("/posts/index")
     else
-    render("posts/edit")
+       render("posts/edit")
    end
   end
 
